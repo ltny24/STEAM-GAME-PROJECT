@@ -37,7 +37,13 @@ data/raw/*.parquet
 Thumbs.db
 desktop.ini
 
-# Temp
+# Temp & Docs
 *.log
 *.tmp
 pdf_content.txt
+CSC17104_2026_Final_Project.pdf
+Final Project.pdf
+docs/
+
+# Individual notebooks
+notebooks/individual/
