@@ -37,8 +37,8 @@
 | Họp nhóm chốt chính thức 6 câu hỏi | Cả nhóm | `main` | Đã xong |
 | **3.1 Thu thập dữ liệu (Data Collection)**: Viết 5 mục thu thập & bối cảnh dữ liệu | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
 | **3.2.1 Tổng quan (Overview)**: Kiểm tra số dòng, cột, ý nghĩa và kiểu dữ liệu | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
-| **3.2.2 Các cột dữ liệu số (Numerical Columns)**: Phân phối, min/max, outliers (IQR/z-score) | Van Anh | `Van-Anh` | Đã xong |
-| **3.2.3 Các cột phân loại (Categorical Columns)**: Thống kê nhãn, genres, tags, languages | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
+| **3.2.2 Các cột phân loại (Categorical Columns)**: Thống kê nhãn, genres, tags, languages | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
+| **3.2.3 Các cột dữ liệu số (Numerical Columns)**: Phân phối, min/max, outliers (IQR/z-score) | Van Anh | `Van-Anh` | Đã xong |
 | **3.2.4 Dữ liệu bị thiếu (Missing Data)**: Thống kê % missing, vẽ ma trận `missingno` | Van Anh | `Van-Anh` | Đã xong |
 | **3.2.5 Mối quan hệ (Relationships)**: Ma trận tương quan (Heatmap), phân tích chéo | Le Thi Nhu Y | `Nhu-Y` | Đã xong |
 | **3.2.6 Tổng kết EDA**: Tóm tắt 3-5 quan sát chính & Preprocessing plan | Le Thi Nhu Y | `Nhu-Y` | Đã xong |
