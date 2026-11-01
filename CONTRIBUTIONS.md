@@ -5,11 +5,11 @@
 
 ## 1. Danh sach Thanh vien
 
-| # | Ho va ten | MSSV | Vai tro chinh |
-|:---:|---|:---:|:---:|---|
-| 1 | **Le Thi Nhu Y** | **24127595** |  Business Strategy Lead & Slide Coordinator |
-| 2 | **Ho Thi Nhu Ngoc** | **24127089** |  Deep Integration Lead & LLM Log Manager |
-| 3 | **Vo Nguyen Van Anh** | **24127016** |  Machine Learning Lead & Conda Environment Admin |
+| # | Họ và tên | MSSV | Vai trò chính |
+|:---:|---|:---:|:---:|
+| 1 | **Lê Thị Như Ý** | **24127595** |  Business Strategy Lead & Slide Coordinator |
+| 2 | **Hồ Thị Như Ngọc** | **24127089** |  Deep Integration Lead & LLM Log Manager |
+| 3 | **Võ Nguyễn Vân Anh** | **24127016** |  Machine Learning Lead & Conda Environment Admin |
 
 ---
 
