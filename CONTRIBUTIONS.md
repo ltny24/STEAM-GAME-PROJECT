@@ -7,9 +7,10 @@
 
 | # | Họ và tên | MSSV | Vai trò chính |
 |:---:|---|:---:|:---:|
-| 1 | **Lê Thị Như Ý** | **24127595** |  Business Strategy Lead & Slide Coordinator |
+| 1 | **Võ Nguyễn Vân Anh** | **24127016** |  Machine Learning Lead & Conda Environment Admin |
 | 2 | **Hồ Thị Như Ngọc** | **24127089** |  Deep Integration Lead & LLM Log Manager |
-| 3 | **Võ Nguyễn Vân Anh** | **24127016** |  Machine Learning Lead & Conda Environment Admin |
+| 3 | **Lê Thị Như Ý** | **24127595** |  Business Strategy Lead & Slide Coordinator |
+
 
 ---
 
