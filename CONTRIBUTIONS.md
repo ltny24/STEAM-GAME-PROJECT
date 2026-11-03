@@ -5,17 +5,17 @@
 
 ## 1. Danh sach Thanh vien
 
-| # | Ho va ten | MSSV | GitHub | Vai tro chinh |
-|:---:|---|:---:|:---:|---|
-| 1 | **Le Thi Nhu Y** | **24127595** | [@ltny24](https://github.com/ltny24) | Business Strategy Lead & Slide Coordinator |
-| 2 | **Ho Thi Nhu Ngoc** | **24127089** | @... | Deep Integration Lead & LLM Log Manager |
-| 3 | **Vo Nguyen Van Anh** | **24127016** | @... | Machine Learning Lead & Conda Environment Admin |
+| # | Họ và tên | MSSV | Vai trò chính |
+|:---:|---|:---:|:---:|
+| 1 | **Võ Nguyễn Vân Anh** | **24127016** |  Machine Learning Lead & Conda Environment Admin |
+| 2 | **Hồ Thị Như Ngọc** | **24127089** |  Deep Integration Lead & LLM Log Manager |
+| 3 | **Lê Thị Như Ý** | **24127595** |  Business Strategy Lead & Slide Coordinator |
+
 
 ---
 
 ## 2. Phan cong So Huu Cau Hoi (Question Ownership)
 
-*(Cap nhat sau khi nhom hop thong nhat 6 cau hoi. Moi thanh vien phu trach 2 cau).*
 
 | STT | Cau hoi nghien cuu | Nguoi phu trach | Loai & Tieu chi do sau | File Notebook |
 |:---:|---|:---:|:---:|:---:|
@@ -30,40 +30,55 @@
 
 ## 3. Phan cong chi tiet theo cac giai doan (Workflow)
 
-### Phase 1 — Thu thap & Kham pha Du lieu (EDA - Notebook 01)
-| Nhiem vu cu the | Nguoi phu trach | Nhanh Git | Trang thai |
+### Phase 1 — Thu thập & Khám phá Dữ liệu (EDA - Notebook 01)
+*(Thời gian: 22/10 – 31/10)*
+| Nhiệm vụ cụ thể | Người phụ trách | Branch | Trạng thái |
 |---|:---:|:---:|:---:|
-| **3.1 Data Collection**: Viet 5 muc thu thap & boi canh du lieu | Nhu Ngoc | `Nhu-Ngoc` | Dang thuc hien |
-| **3.2 Categorical Columns**: Thong ke nhan, genres, tags, languages | Nhu Ngoc | `Nhu-Ngoc` | Dang thuc hien |
-| **3.2 Numerical Columns**: Phan phoi, min/max, outliers (IQR/z-score) | Van Anh | `Van-Anh` | Dang thuc hien |
-| **3.2 Missing Data**: Thong ke % missing, ve ma tran `missingno` | Van Anh | `Van-Anh` | Dang thuc hien |
-| **3.2 Relationships**: Ma tran tuong quan (Heatmap), phan tich cheo | Le Thi Nhu Y | `Nhu-Y` | Dang thuc hien |
-| **3.2 Tong ket EDA**: Tom tat 3-5 quan sat chinh & Preprocessing plan | Le Thi Nhu Y | `Nhu-Y` | Dang thuc hien |
-| **Hop nhom & Ghep noi vao `01_collection_exploration.ipynb`** | Ca nhom | `main` | Chua bat dau |
+| Họp nhóm chốt chính thức 6 câu hỏi | Cả nhóm | `main` | Đã xong |
+| **3.1 Thu thập dữ liệu (Data Collection)**: Viết 5 mục thu thập & bối cảnh dữ liệu | Van Anh | `Van-Anh` | Đã xong |
+| **3.2.1 Tổng quan (Overview)**: Kiểm tra số dòng, cột, ý nghĩa và kiểu dữ liệu | Van Anh | `Van-Anh` | Đã xong |
+| **3.2.2 Các cột phân loại (Categorical Columns)**: Thống kê nhãn, genres, tags, languages | Van Anh | `Van-Anh` | Đã xong |
+| **3.2.3 Các cột dữ liệu số (Numerical Columns)**: Phân phối, min/max, outliers (IQR/z-score) | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
+| **3.2.4 Dữ liệu bị thiếu (Missing Data)**: Thống kê % missing, vẽ ma trận `missingno` | Nhu Ngoc | `Nhu-Ngoc` | Đã xong |
+| **3.2.5 Mối quan hệ (Relationships)**: Ma trận tương quan (Heatmap), phân tích chéo | Le Thi Nhu Y | `Nhu-Y` | Đã xong |
+| **3.2.6 Tổng kết EDA**: Tóm tắt 3-5 quan sát chính & Preprocessing plan | Le Thi Nhu Y | `Nhu-Y` | Đã xong |
+| **Ghép nối và hoàn thiện `01_collection_exploration.ipynb`** | Cả nhóm | `main` | Đã xong |
 
-### Phase 2 — Phan tich Chuyen sau & Machine Learning (Notebook 02 & 03)
-| Nhiem vu cu the | Nguoi phu trach | Nhanh Git | Trang thai |
+### Phase 2 — Phân tích Chuyên sâu & Machine Learning (Notebook 02 & 03)
+*(Thời gian: 01/11 – 16/11)*
+| Nhiệm vụ cụ thể | Người phụ trách | Nhánh Git | Trạng thái |
 |---|:---:|:---:|:---:|
-| Trien khai Q1 & Q2 | Ho Thi Nhu Ngoc | `Nhu-Ngoc` | Chua bat dau |
-| Trien khai Q3 (Machine Learning) & Q4 | Vo Nguyen Van Anh | `Van-Anh` | Chua bat dau |
-| Trien khai Q5 & Q6 | Le Thi Nhu Y | `Nhu-Y` | Chua bat dau |
-| Ghep noi va hoan thien `02_analysis.ipynb` & `03_ml_question.ipynb` | Ca nhom | `main` | Chua bat dau |
+| Triển khai Q1 & Q2 | Ho Thi Nhu Ngoc | `Nhu-Ngoc` | Chưa bắt đầu |
+| Triển khai Q3 (Machine Learning) & Q4 | Vo Nguyen Van Anh | `Van-Anh` | Chưa bắt đầu |
+| Triển khai Q5 & Q6 | Le Thi Nhu Y | `Nhu-Y` | Chưa bắt đầu |
+| Tải và ghép dữ liệu ngoại (CPI, Language) | Cả nhóm | Tùy câu hỏi | Chưa bắt đầu |
+| Vẽ $\ge 2$ biểu đồ/câu, kiểm định D5, test D6 | Từng cá nhân | Tùy nhánh | Chưa bắt đầu |
+| Ghép nối và hoàn thiện `02_analysis.ipynb` & `03_ml_question.ipynb` | Cả nhóm | `main` | Chưa bắt đầu |
 
-### Phase 3 — Hoan thien Deliverables & Thuyet trinh
-| Nhiem vu cu the | Nguoi phu trach | Han chot | Trang thai |
+### Phase 3 — Hoàn thiện Deliverables & Thuyết trình
+*(Thời gian: 16/11 – 25/11)*
+| Nhiệm vụ cụ thể | Người phụ trách | Hạn chót | Trạng thái |
 |---|:---:|:---:|:---:|
-| Viet phan Danh gia & Reflection ca nhan (tung nguoi) | Tat ca | *(Ngay...)* | Chua bat dau |
-| Cap nhat day du nhat ky `LLM_USAGE.md` | Nhu Ngoc | *(Ngay...)* | Chua bat dau |
-| Kiem tra dong bo moi truong Conda `environment.yml` | Van Anh | *(Ngay...)* | Chua bat dau |
-| Soan noi dung slide cac cau hoi tuong ung | Tung ca nhan | *(Ngay...)* | Chua bat dau |
-| Thiet ke template & Rap Master Slide xuat `slides.pdf` | Le Thi Nhu Y | *(Ngay...)* | Chua bat dau |
-| Luyen tap thuyet trinh khop khung 15 phut + 10 phut Q&A | Ca nhom | *(Ngay...)* | Chua bat dau |
+| Viết Phase 3.5: Key findings & Limitations | Le Thi Nhu Y | 18/11 | Chưa bắt đầu |
+| Viết Reflection cá nhân (từng người) | Tất cả | 18/11 | Chưa bắt đầu |
+| Cập nhật nhật ký `LLM_USAGE.md` | Nhu Ngoc | 19/11 | Chưa bắt đầu |
+| Kiểm tra đồng bộ môi trường Conda `environment.yml` | Van Anh | 19/11 | Chưa bắt đầu |
+| Soạn nội dung slide các câu hỏi tương ứng | Từng cá nhân | 20/11 | Chưa bắt đầu |
+| Mở Issue mời nhóm bạn review; đi review nhóm khác | Cả nhóm | 20/11 | Chưa bắt đầu |
+| Thiết kế template & Ráp Master Slide xuất `slides.pdf` | Le Thi Nhu Y | 21/11 | Chưa bắt đầu |
+| Chỉnh sửa feedback & nộp bài trên Moodle | Cả nhóm | 21/11 | Chưa bắt đầu |
+| Báo cáo dự án và vấn đáp Q&A | Cả nhóm | 22/11 - 25/11 | Chưa bắt đầu |
 
 ---
 
-## 4. Nhat ky cac buoi hop nhom (Meeting Log)
+## 4. Nhật ký các buổi họp nhóm (Meeting Log)
 
-* **Buoi 1 (Khoi dong du an)**:
-  - Thong nhat chon bo du lieu Steam Games (March 2025).
-  - Phan tich lai de bai CSC17104 nam 2026: mo rong len 6 cau hoi (2 cau 6D, 1 cau ML, 3 cau 4D).
-  - Phan cong vai tro chinh va tao cac nhanh ca nhan tren GitHub.
+- **Buổi 1 (Khởi động dự án - 06/10)**:
+  - Thống nhất chọn bộ dữ liệu Steam Games (March 2025).
+  - Phân tích lại đề bài CSC17104 năm 2026: mở rộng lên 6 câu hỏi (2 câu 6D, 1 câu ML, 3 câu 4D).
+  - Phân công vai trò chính và tạo các nhánh cá nhân trên GitHub.
+
+- **Buổi 2 (Chốt câu hỏi & Lên Timeline - 21/10)**:
+  - Chốt chính thức danh sách 6 câu hỏi phân tích.
+  - Thống nhất quy trình làm Phase 3.1 và Phase 3.2.
+  - Lên lịch các deadline nội bộ (Tuần 1, Tuần 2, Tuần 3, Tuần 4) để bám sát tiến độ đồ án.
