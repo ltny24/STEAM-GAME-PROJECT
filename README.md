@@ -13,7 +13,7 @@
 | # | Ho va ten | MSSV | GitHub | Vai tro & Quyen so huu cau hoi |
 |:---:|---|:---:|:---:|---|
 | 1 | **Le Thi Nhu Y** | **24127595** | [@ltny24](https://github.com/ltny24) | **Business Strategy Lead**<br>• Phu trach **Q5** & **Q6**<br>• Phan tich Tuong quan & Tong ket EDA (Notebook 01)<br>• Dieu phoi slide thuyet trinh `slides.pdf` |
-| 2 | **Ho Thi Nhu Ngoc** | **24127089** | @... | **Deep Integration Lead**<br>• Phu trach **Q1** & **Q2**<br>• Viet Muc 3.1 (Thu thap du lieu) & Categorical EDA (Notebook 01)<br>• Quan ly nhat ky `LLM_USAGE.md` |
+| 2 | **Ho Thi Nhu Ngoc** | **24127089** | @[htnngoc2418-art](https://github.com/htnngoc2418-art) | **Deep Integration Lead**<br>• Phu trach **Q1** & **Q2**<br>• Viet Muc Numerical Columns & Missing Data (Notebook 01)<br>• Quan ly nhat ky `LLM_USAGE.md` |
 | 3 | **Vo Nguyen Van Anh** | **24127016** | @... | **Machine Learning Lead**<br>• Phu trach **Q3 (Machine Learning)** & **Q4**<br>• Phan tich Numerical EDA & Missing Data (Notebook 01)<br>• Quan tri moi truong Conda `environment.yml` |
 
 > *Chi tiet lich trinh va phan chia cong viec tung giai doan xem tai [CONTRIBUTIONS.md](CONTRIBUTIONS.md).*
@@ -60,6 +60,22 @@ STEAM-GAME-PROJECT/
 
 ### 3.2 Khai bao nghien cuu co san tren Kaggle (Declaration of Existing Work)
 *(Cap nhat danh sach cac public notebook tren Kaggle lien quan den dataset nay va giai thich diem khac biet cua de tai nhom de tranh dao van theo Muc 2 cua de bai).*
+
+### 3.3 Du lieu bo sung — Hugging Face
+
+Dataset nay chi dung de doi chieu cac co nen tang `windows`, `mac`, `linux` trong RQ1; khong thay the dataset Kaggle chinh.
+
+| Thuoc tinh | Thong tin |
+|---|---|
+| **Nguon** | [FronkonGames/steam-games-dataset tren Hugging Face](https://huggingface.co/datasets/FronkonGames/steam-games-dataset) |
+| **Tep tren Hugging Face** | `data/train-00000-of-00001.parquet` |
+| **Ten tep trong du an** | `hf_steam_games_dataset_train.parquet` |
+| **Vi tri** | `data/raw/hf_steam_games_dataset_train.parquet` |
+
+Khong can tai file thu cong. Sau khi dat CSV Kaggle vao `data/raw/`, mo va chay notebook
+[`notebooks/02_analysis.ipynb`](./notebooks/02_analysis.ipynb). Notebook se tu tai tep tu Hugging Face vao
+`data/raw/hf_steam_games_dataset_train.parquet` neu tep chua co; can ket noi Internet trong lan chay dau tien.
+Tep parquet duoc bo qua boi Git, khong commit tep du lieu nay len repository.
 
 ---
 
